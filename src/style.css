@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(252, 236, 149);
+}
+
+p {
+  text-align: center;
+}
+
+a.link {
+  padding: 10px;
+  color: rgb(159, 10, 117);
+}
+
+.croissant-photo {
+  max-width: 100%;
+  display: block;
+  margin: 40px 0;
+}
+
+.center-text {
+  display: block;
+  text-align: center;
+}
