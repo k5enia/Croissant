@@ -4,16 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/style.css" />
     <title>Flaky buttery croissant - croissant.com</title>
     <meta
       name="description"
       content="find photos of different flavours of croissants on croissant.com"
     />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XHQX886KWP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XHQX886KWP");
+    </script>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon_io/favicon.ico" />
   </head>
   <body>
     <h1 class="center-text">🥐 Picture of a glorious croissant</h1>
-    <img src="/croissant.jpg" class="croissant-photo" />
+    <img
+      src="/croissant.jpg"
+      class="croissant-photo"
+      alt="two croissants on a white plate, the top croissant is cut in half and placed on top of the bottom croissant "
+    />
     <div class="center-text">
       <a href="/index.html" class="link" title="homepage">Homepage</a>
       <a href="/photo.html" class="link" title="croissant">Photo</a>
