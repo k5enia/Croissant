@@ -12,9 +12,10 @@ a.link {
 }
 
 .croissant-photo {
-  max-width: 100%;
+  max-width: 75%;
   display: block;
-  margin: 40px 0;
+  margin: 40px auto;
+  border-radius: 4px;
 }
 
 .center-text {
